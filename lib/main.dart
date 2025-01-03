@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:getx_mvvm/class2.dart';
 
 
 import 'getx_utils/getxApi/api_home.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home:  ApiHome(),debugShowCheckedModeBanner: false,
+      home:  StudentScreen(),debugShowCheckedModeBanner: false,
     );
   }
 }
